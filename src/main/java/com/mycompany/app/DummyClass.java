@@ -1,0 +1,14 @@
+package com.mycompany.app;
+
+public class DummyClass {
+    public int anInt(int a) {
+        switch (a) {
+            case 1:
+                return 1;
+            case 2:
+                return 2;
+            default:
+                return 10;
+        }
+    }
+}
