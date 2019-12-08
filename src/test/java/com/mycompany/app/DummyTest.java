@@ -13,4 +13,9 @@ public class DummyTest {
     public void testShouldReturn2() {
         assertEquals(2, new DummyClass().anInt(2));
     }
+    @Test
+    public void testShouldReturn10() {
+        assertEquals(10, new DummyClass().anInt(10));
+    }
+
 }
